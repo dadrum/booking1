@@ -1,0 +1,89 @@
+{
+  "errorLoadingTitle": "Ошибка",
+  "errorLoadingText": "Не удалось загрузить данные",
+  "errorLoadingButton": "Повторить",
+  "errorRequest": "Не удалось выполнить запрос",
+
+  "hotelsTitle": "Отель",
+  "hotelsPrice": "от {value} ₽",
+  "@hotelsPrice": {
+    "description": "Hotel price from",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "hotelsPriceContains": "за тур с перелётом",
+  "hotelsAboutChapter": "Об отеле",
+  "hotelsToRoomsSelectButton": "К выбору номера",
+
+  "hotelsAmenitiesButton": "Удобства",
+  "hotelsAmenitiesSubtitle": "Самое необходимое",
+  "hotelsIncludedButton": "Что включено",
+  "hotelsIncludedSubtitle": "Самое необходимое",
+  "hotelsNotIncludedButton": "Что не включено",
+  "hotelsNotIncludedSubtitle": "Самое необходимое",
+
+  "roomsSelectRoomButton": "Выбрать номер",
+
+  "reservationTitle": "Бронирование",
+  "reservationDepartureFrom": "Вылет из",
+  "reservationCountryOfArrival": "Страна, город",
+  "reservationDateInterval": "Даты",
+  "reservationNightsCount": "Кол-во ночей",
+  "reservationHotelName": "Отель",
+  "reservationRoom": "Номер",
+  "reservationFood": "Питание",
+  "reservationBuyerDetails": "Информация о покупателе",
+  "reservationPhoneLabel": "Номер телефона",
+  "reservationEmailLabel": "Почта",
+  "reservationDetailsHint": "Эти данные никому не передаются. После оплаты мы вышлем чек на указанный вами номер и почту",
+  "reservationErrorFormFill": "Необходимо заполнить все поля формы",
+  "reservationTouristIndex": "{count, plural, =1 {Первый} =2 {Второй} other {{count}-й}}",
+  "@reservationTouristIndex": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "reservationFieldFirstName": "Имя",
+  "reservationFieldLastName": "Фамилия",
+  "reservationFieldBirthDate": "Дата рождения",
+  "reservationFieldCitizenship": "Гражданство",
+  "reservationFieldForeignPassportNumber": "Номер загранпаспорта",
+  "reservationFieldForeignPassportValidUntil": "Срок действия загранпаспорта",
+  "reservationAddTouristButton": "Добавить туриста",
+  "reservationTourPriceLabel": "Тур",
+  "reservationFuelPriceLabel": "Топливный сбор",
+  "reservationServicePriceLabel": "Сервисный сбор",
+  "reservationTotalPriceLabel": "К оплате",
+  "reservationPrice": "{value} ₽",
+  "@reservationPrice": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+
+  "reservationPayButton": "Оплатить {value} ₽",
+  "@reservationPayButton": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+
+  "reservationCompleteTitle": "Заказ оплачен",
+  "reservationCompleteInWork": "Ваш заказ принят в работу",
+  "reservationCompleteHint": "Подтверждение заказа №{value} может занять некоторое время (от 1 часа до суток).\nКак только мы получим ответ от туроператора, вам на почту придёт уведомление",
+  "@reservationCompleteHint": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "reservationCompleteSuperButton": "Супер!"
+}

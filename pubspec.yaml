@@ -1,0 +1,93 @@
+name: booking
+description: "Booking Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  # state management
+  flutter_bloc: 8.1.6
+
+  # navigation
+  go_router: 14.3.0
+
+  # network
+  dio: 5.7.0
+  retrofit: 4.4.1
+
+  # formatted input fields
+  mask_text_input_formatter: 2.9.0
+
+  # service locator
+  get_it: ^8.0.2
+
+  # validate email
+  email_validator: 3.0.0
+
+  json_annotation: 4.9.0
+
+  # UI
+  cupertino_icons: 1.0.8
+  flutter_svg: 2.0.10+1
+  carousel_slider: 5.0.0
+  cached_network_image: 3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: 0.14.1
+
+  # code generation
+  freezed_annotation: 2.4.4
+
+  # testing
+  mockito: 5.4.4
+  bloc_test: 9.1.7
+
+  # code generation
+  build_runner: 2.4.13
+  json_serializable: 6.8.0
+  freezed: 2.5.7
+  retrofit_generator: '>=8.0.0 <10.0.0' # for Dart 3.3 use ^9.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+
+  fonts:
+    - family: booking
+      fonts:
+        - asset: assets/fonts/booking.ttf
+    - family: SF Pro Display
+      fonts:
+        - asset: assets/fonts/sf_pro_display_bold.otf
+          weight: 900
+        - asset: assets/fonts/sf_pro_display_bold.otf
+          weight: 800
+        - asset: assets/fonts/sf_pro_display_bold.otf
+          weight: 700
+        - asset: assets/fonts/sf_pro_display_medium.otf
+          weight: 600
+        - asset: assets/fonts/sf_pro_display_medium.otf
+          weight: 500
+        - asset: assets/fonts/sf_pro_display_regular.otf
+          weight: 400
+        - asset: assets/fonts/sf_pro_display_light.otf
+          weight: 300
+        - asset: assets/fonts/sf_pro_display_light.otf
+          weight: 200
+        - asset: assets/fonts/sf_pro_display_light.otf
+          weight: 100

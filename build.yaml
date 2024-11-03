@@ -1,0 +1,8 @@
+targets:
+  $default:
+    builders:
+      source_gen:combining_builder:
+        options:
+          build_extensions:
+            '^lib/data/api/model/{{}}.dart': 'lib/data/api/model/generated/{{}}.g.dart'
+            '^lib/data/api/rest_client/{{}}.dart': 'lib/data/api/rest_client/{{}}.g.dart'
